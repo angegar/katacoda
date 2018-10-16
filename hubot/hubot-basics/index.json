@@ -28,11 +28,6 @@
                 {
                     "file": "demo-script.js",
                     "target": "~/"
-                },
-                {
-                    "file": "install_ngrok.js",
-                    "target": "~/",
-                    "chmod":"+x"
                 }
             ]
         },
