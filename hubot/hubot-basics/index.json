@@ -16,10 +16,6 @@
             { 
                 "title" : "Hello world",
                 "text": "first_script.md"
-            },
-            { 
-                "title" : "Expose your bot",
-                "text": "bot_expose.md"
             }
         ],
         "intro": {},
