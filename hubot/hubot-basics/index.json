@@ -16,7 +16,11 @@
             { 
                 "title" : "Hello world",
                 "text": "first_script.md"
-            }
+            },
+            {
+            "title": "Integration with MS Teams",
+            "text": "msteams.md"
+        }
         ],
         "intro": {},
         "assets": {
@@ -32,10 +36,7 @@
                 }
             ]
         },
-        "finish": {
-            "title": "Integration with MS Teams",
-            "text": "finish.md"
-        }
+        "finish": {}
     },
     "environment": {
         "hideintro": true,
