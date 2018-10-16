@@ -1,0 +1,56 @@
+{
+    "pathwayTitle": "hubot",
+    "title": "Create your first bot",
+    "description": "Create your first bot",
+    "difficulty": "beginner",
+    "time": "20 minutes",
+    "icon": "",
+    "authenticated": false,
+    "private": false,
+    "details": {
+        "steps": [
+            { 
+                "title" : "Install hubot",
+                "text": "installation.md"
+            },
+            { 
+                "title" : "Hello world",
+                "text": "first_script.md"
+            },
+            { 
+                "title" : "Expose your bot",
+                "text": "bot_expose.md"
+            }
+        ],
+        "intro": {},
+        "assets": {
+            "client":[
+                {
+                    "file": "demo-script.js",
+                    "target": "~/"
+                },
+                {
+                    "file": "install_ngrok.js",
+                    "target": "~/",
+                    "chmod":"+x"
+                }
+            ]
+        },
+        "finish": {
+            "title": "Integration with MS Teams",
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "hideintro": true,
+        "hidefinish" : true,
+        "uilayout": "terminal",
+        "showdashboard": true,
+        "dashboards": [
+        ],
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nYou can type in and run shell commands here.\r\n\u001b[m"
+    },
+    "backend": {
+        "imageid": "node6"
+    }
+}

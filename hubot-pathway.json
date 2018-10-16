@@ -1,0 +1,12 @@
+{
+    "title": "Hubot",
+    "description": "Learn how to create a tchat bot",
+    "courses": [
+        {
+            "title": "Hubot - the basics",
+            "description": "Create your first bot",
+            "course_id": "hubot-basics",
+            "hideprogress": true
+        }
+    ]
+}
