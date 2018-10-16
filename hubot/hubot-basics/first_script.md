@@ -9,8 +9,11 @@ cd ..
 mkdir demo-script
 cd demo-script
 yo hubot:script
-rm src demo-script.coffee
 ```{{execute}}
+
+## Remove deprecated file
+
+`rm src/demo-script.coffee`{{execute}}
 
 ## Copy demo-script.js
 
