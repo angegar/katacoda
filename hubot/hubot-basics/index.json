@@ -18,11 +18,15 @@
                 "text": "first_script.md"
             },
             {
-            "title": "Integration with MS Teams",
-            "text": "msteams.md"
-        }
+                "title": "Integration with MS Teams",
+                "text": "msteams.md"
+            }
         ],
-        "intro": {},
+        "intro": {
+            "title" : "What is a Chat Bot",
+            "text" : "intro.md"
+
+        },
         "assets": {
             "client":[
                 {
