@@ -1,7 +1,7 @@
 ## What is it 
 *ChatOps is a collaboration model that connects people, tools, process and automation into a transparent workflow.*
 
-![](./assets/chatops.png)
+![chatops picture](~/chatops.png)
 
 >Ref : http://www.no2now.com/chatops/
 
@@ -13,7 +13,7 @@
 - “hyper connectivity” between people and the continuous delivery pipeline​
 - Add “super powers” with bots
 
-![superBot](./assets/superBot-200x164.jpg)
+![superBot picture](~/superBot-200x164.jpg)
   
 ## ChatOps applications
 
