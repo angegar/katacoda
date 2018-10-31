@@ -25,25 +25,12 @@
         "intro": {
             "title" : "What is a Chat Bot",
             "text" : "intro.md"
-
         },
         "assets": {
             "client":[
                 {
                     "file": "demo-script.js",
-                    "target": "/home/scrapbook/"
-                },
-                {
-                    "file": "chatops.png",
-                    "target": "/home/scrapbook/"
-                },
-                {
-                    "file": "chatops2.png",
-                    "target": "/home/scrapbook/"
-                },
-                {
-                    "file": "superBot-200x164.jpg",
-                    "target": "/home/scrapbook/"
+                    "target": "~/"
                 }
             ]
         },
