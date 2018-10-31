@@ -32,6 +32,18 @@
                 {
                     "file": "demo-script.js",
                     "target": "~/"
+                },
+                {
+                    "file": "chatops.png",
+                    "target": "~/assets/"
+                },
+                {
+                    "file": "chatops2.png",
+                    "target": "~/assets/"
+                },
+                {
+                    "file": "superBot-200x164.jpg",
+                    "target": "~/assets/"
                 }
             ]
         },
