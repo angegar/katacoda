@@ -28,22 +28,22 @@
 
         },
         "assets": {
-            "host":[
+            "client":[
                 {
                     "file": "demo-script.js",
-                    "target": "~/"
+                    "target": "/home/scrapbook/"
                 },
                 {
                     "file": "chatops.png",
-                    "target": "~/"
+                    "target": "/home/scrapbook/"
                 },
                 {
                     "file": "chatops2.png",
-                    "target": "~/"
+                    "target": "/home/scrapbook/"
                 },
                 {
                     "file": "superBot-200x164.jpg",
-                    "target": "~/"
+                    "target": "/home/scrapbook/"
                 }
             ]
         },
