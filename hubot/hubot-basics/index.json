@@ -38,7 +38,7 @@
         "finish": {}
     },
     "environment": {
-        "hideintro": true,
+        "hideintro": false,
         "hidefinish" : true,
         "uilayout": "terminal",
         "showdashboard": true,
