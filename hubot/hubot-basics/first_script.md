@@ -63,3 +63,7 @@ To exit the bot you can :
 
 - write exit
 - ctrl + c
+
+## Adapters
+
+An adapter is an interface to the service you want your hubot to run on. In this demo we used the default shell adapter which is usefull to develop hubot scripts. However it is not enough to create an operational chatbot, to achieve it you have to install additional adapters. You will find a documentation on how to install adapters in the [hubot documentation](https://hubot.github.com/docs/adapters/)
