@@ -28,7 +28,7 @@
 
         },
         "assets": {
-            "client":[
+            "host":[
                 {
                     "file": "demo-script.js",
                     "target": "~/"
