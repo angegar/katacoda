@@ -9,7 +9,7 @@
 
 - Make Dev and Ops collaborate without a re-org
 - Connect distributed teams​
-- A central point to manage/monitor your development, release and deployment process
+- Create a central point to manage/monitor your development, release and deployment process
 - “hyper connectivity” between people and the continuous delivery pipeline​
 - Add “super powers” with bots
 
