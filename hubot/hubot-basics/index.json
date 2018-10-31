@@ -35,15 +35,15 @@
                 },
                 {
                     "file": "chatops.png",
-                    "target": "~/assets/"
+                    "target": "~/"
                 },
                 {
                     "file": "chatops2.png",
-                    "target": "~/assets/"
+                    "target": "~/"
                 },
                 {
                     "file": "superBot-200x164.jpg",
-                    "target": "~/assets/"
+                    "target": "~/"
                 }
             ]
         },
