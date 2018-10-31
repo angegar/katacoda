@@ -54,6 +54,9 @@ Remove deprecated file
 You are now in a shell used to communicate with the bot. You can try the following commands :
 
 `mybot hello`{{copy}}
+
+`mybot your name`{{copy}}
+
 `can you hear me`{{copy}}
 
 To exit the bot you can :
