@@ -1,4 +1,4 @@
-## Create a Hubot script
+## Create a Hubot script - part 1
 
 Hubot provides us with a yeoman command to generate a script repository from a template. We will use it to create a folder named - demo-script - at the same level than your bot directory.
 
