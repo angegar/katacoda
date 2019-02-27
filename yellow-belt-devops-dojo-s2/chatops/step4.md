@@ -51,3 +51,5 @@ From the myhubot folder
 ## Start your deployment
 
 `deploy pet-clinic`{{execute}}
+
+Go to the jenkins tab and have a look to pet-clinic/master

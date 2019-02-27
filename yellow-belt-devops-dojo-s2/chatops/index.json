@@ -20,6 +20,10 @@
             { 
                 "title" : "Add your custom script",
                 "text": "step3.md"
+            },
+            { 
+                "title" : "Deploy pet-clinic",
+                "text": "step4.md"
             }
         ],
         "intro": {
