@@ -6,11 +6,14 @@
 
 `npm install -g yo generator-hubot`{{execute}}
 
+As we are running as root in a container we have to run the following command. You will probably not have to it in your environment
+
+`sed -i -e '/rootCheck/d' "/usr/lib/node_modules/yo/lib/cli.js"`{{execute}}
+
 ### Create your Hubot bot
 
 The script below will create a directory named  myhubot and install the bot inside it
 ```
-    chmod 777 /root/.config /root/.config/insight-yo.json  
     mkdir myhubot
     cd myhubot
     yo hubot --owner="katacoda" --name="mybot" --adapter=campfire --description 'my first bot'
