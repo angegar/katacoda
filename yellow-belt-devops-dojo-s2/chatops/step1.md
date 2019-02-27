@@ -10,6 +10,7 @@
 
 The script below will create a directory named  myhubot and install the bot inside it
 ```
+    chmod 777 /root/.config /root/.config/insight-yo.json  
     mkdir myhubot
     cd myhubot
     yo hubot --owner="katacoda" --name="mybot" --adapter=campfire --description 'my first bot'
