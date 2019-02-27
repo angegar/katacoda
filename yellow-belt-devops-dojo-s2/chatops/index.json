@@ -23,15 +23,11 @@
             "text" : "intro.md"
         },
         "assets": {
-            "client":[
-                {
-                    "file": "demo-script.js",
-                    "target": "~/"
-                }
-            ],
+            "client":[],
             "host01": [
                 {"file": "prepare.sh", "target": "~/","chmod": "+x"},
-                {"file": "index.html", "target": "~/nginx"}
+                {"file": "index.html", "target": "~/nginx"},
+                {"file": "demo-script.js", "target": "~/"}
             ]
         },
         "finish": {}
