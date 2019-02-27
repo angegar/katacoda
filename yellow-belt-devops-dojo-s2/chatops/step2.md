@@ -1,47 +1,48 @@
 ## Create a Hubot script
 
-The script below will create a folder named - demo-script - at the same level than your bot folder, and install the script template which will allow you to develop your first script.
+Hubot provides us with a yeoman command to generate a script repository from a template. We will use it to create a folder named - demo-script - at the same level than your bot directory.
 
 During the installation process please keep the default value as it makes the demo easier. You just have to set the Owner value.
 
-`mkdir ../demo-script;cd demo-script;yo hubot:script`{{execute}}
+`mkdir ../demo-script; cd ../demo-script; yo hubot:script`{{execute}}
 
 ## Remove deprecated file
 
+The current template version comes with sample as deprecated file so let's remove it.
+
 `rm src/demo-script.coffee`{{execute}}
 
-## Copy - demo-script.js -
+## Create a custom script
 
-To prepare the course i created the demo-script.js file.
-Copy it to the script folder you just created.
+To prepare the course i created the demo-script.js file which contains some useless bot commands.
 
-```
-cd ..
-cp demo-script.js demo-script/src
-```{{execute}}
+Copy the file to the script folder **demo-script**.
+
+`cp ../demo-script.js ../demo-script/src`{{execute}}
 
 If you which to read the file content you can execute :
 
-`cat demo-script.js`{{execute}}
+`cat ../demo-script/src/demo-script.js`{{execute}}
 
-## Teach your bot
+> Note: Initally Hubot used the coffee script language, but now you can also use nodejs which seems to be the go forward solution.
 
-You will now use npm to install your Hubot script from the folder - demo-script -. To say to your bot to use this script you have to edit the file external-scripts.json and add the line - hubot-demo-script -.
+## Add a custome script to your bot
 
-```
-cd myhubot
-npm install ../demo-script
-vi external-scripts.json
-```{{execute}}
+You will now use npm to install your Hubot script from the folder **demo-script**.
+
+`cd myhubot; npm install ../demo-script`{{execute}}
+
+Then you will instruct your bot to use your custom script in editing the file **external-scripts.json** and in adding the line **hubot-demo-script**. You will note that each hubot script is prefixed with **hubot-**.
+
+`vi external-scripts.json`{{execute}}
 
 Add `"hubot-demo-script"`{{copy}} to the list
-Quit the vim editor [Vi cheat sheet](http://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf)
+Save and close the file
 
-note: [vim commands](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
+If you are not familiar with the Vi commands you can read the [Vi cheat sheet](http://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf)
 
 Remove deprecated file
 `rm hubot-scripts.json`{{execute}}
-
 
 ## Start your bot
 `./bin/hubot`{{execute}}

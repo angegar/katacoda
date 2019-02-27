@@ -6,7 +6,7 @@
 
 `npm install -g yo generator-hubot`{{execute}}
 
-As we are running as root in a container we have to run the following command. You will probably not have to it in your environment
+As we are running as root in a container we have to run the following command. You will probably not have to do it in your environment
 
 `sed -i -e '/rootCheck/d' "/usr/lib/node_modules/yo/lib/cli.js"`{{execute}}
 
