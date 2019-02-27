@@ -1,65 +1,41 @@
-## Create a Hubot script
+## Hubot official documentation
 
-Hubot provides us with a yeoman command to generate a script repository from a template. We will use it to create a folder named - demo-script - at the same level than your bot directory.
+[Hubot documentation](https://hubot.github.com/docs/)
 
-During the installation process please keep the default value as it makes the demo easier. You just have to set the Owner value.
+### Install the Hubot generator
 
-`mkdir ../demo-script; cd ../demo-script; yo hubot:script`{{execute}}
+`npm install -g yo generator-hubot`{{execute}}
 
-## Remove deprecated file
+As we are running as root in a container we have to run the following command. You will probably not have to do it in your environment
 
-The current template version comes with sample as deprecated file so let's remove it.
+`sed -i -e '/rootCheck/d' "/usr/lib/node_modules/yo/lib/cli.js"`{{execute}}
 
-`rm src/demo-script.coffee`{{execute}}
+### Create your Hubot bot
 
-## Create a custom script
+The script below will create a directory named  myhubot and install the bot inside it
+```
+    mkdir myhubot
+    cd myhubot
+    yo hubot --owner="katacoda" --name="mybot" --adapter=campfire --description 'my first bot'
+```{{execute}}
 
-To prepare the course i created the demo-script.js file which contains some useless bot commands.
+During the installation process you will be prompted to send feedback to Hubot. As this is a demo please answer no.
 
-Copy the file to the script folder **demo-script**.
+### Start your bot
 
-`cp ../demo-script.js ../demo-script/src`{{execute}}
+You can start the bot from the myhubot directory in using the following command.
 
-If you which to read the file content you can execute :
-
-`cat ../demo-script/src/demo-script.js`{{execute}}
-
-> Note: Initally Hubot used the coffee script language, but now you can also use nodejs which seems to be the go forward solution.
-
-## Add a custome script to your bot
-
-You will now use npm to install your Hubot script from the folder **demo-script**.
-
-`cd ../myhubot; npm install ../demo-script`{{execute}}
-
-Then you will instruct your bot to use your custom script in editing the file **external-scripts.json** and in adding the line **hubot-demo-script**. You will note that each hubot script is prefixed with **hubot-**.
-
-`vi external-scripts.json`{{execute}}
-
-Add `"hubot-demo-script"`{{copy}} to the list
-Save and close the file
-
-If you are not familiar with the Vi commands you can read the [Vi cheat sheet](http://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf)
-
-Remove deprecated file
-`rm hubot-scripts.json`{{execute}}
-
-## Start your bot
 `./bin/hubot`{{execute}}
 
 You are now in a shell used to communicate with the bot. You can try the following commands :
 
-`mybot hello`{{execute}}
+Ask for help
+`mybot help`{{execute}}
 
-`mybot your name`{{execute}}
-
-`can you hear me`{{execute}}
+Execute the ping command
+`mybot ping`{{execute}}
 
 To exit the bot you can :
 
 - write exit
 - ctrl + c
-
-## Adapters
-
-An adapter is an interface to the service you want your Hubot to run on. In this demo we used the default shell adapter which is useful to develop Hubot scripts. However it is not enough to create an operational chatbot, to achieve it you have to install additional adapters. You will find a documentation on how to install adapters in the [Hubot documentation](https://hubot.github.com/docs/adapters/)

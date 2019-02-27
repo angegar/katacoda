@@ -1,41 +1,11 @@
-## Hubot official documentation
+Run the following command to bring up Jenkins and connect it to your copy of the Pet Clinic application's code. This script may take a few minutes to run.
 
-[Hubot documentation](https://hubot.github.com/docs/)
+(you will re-use the GitHub "Personal Access Token" you have created in the Welcome module. If you lost it, go to [https://github.dxc.com/settings/tokens](https://github.dxc.com/settings/tokens) to create a new one and save it for later.)
 
-### Install the Hubot generator
+  `./prepare.sh`{{execute}}
 
-`npm install -g yo generator-hubot`{{execute}}
+...and wait for the "Click to Continue" message.
 
-As we are running as root in a container we have to run the following command. You will probably not have to do it in your environment
+Note: Jenkins is an open source automation server used for automating continuous integration and facilitating the technical aspects of continuous delivery. 
 
-`sed -i -e '/rootCheck/d' "/usr/lib/node_modules/yo/lib/cli.js"`{{execute}}
-
-### Create your Hubot bot
-
-The script below will create a directory named  myhubot and install the bot inside it
-```
-    mkdir myhubot
-    cd myhubot
-    yo hubot --owner="katacoda" --name="mybot" --adapter=campfire --description 'my first bot'
-```{{execute}}
-
-During the installation process you will be prompted to send feedback to Hubot. As this is a demo please answer no.
-
-### Start your bot
-
-You can start the bot from the myhubot directory in using the following command.
-
-`./bin/hubot`{{execute}}
-
-You are now in a shell used to communicate with the bot. You can try the following commands :
-
-Ask for help
-`mybot help`{{execute}}
-
-Execute the ping command
-`mybot ping`{{execute}}
-
-To exit the bot you can :
-
-- write exit
-- ctrl + c
+💡 **TIP**: 🦊 Firefox user? Use `CTRL`+`INS` / `SHIFT`+`INS` to copy/paste your Personal Access Token in the window.

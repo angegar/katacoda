@@ -10,12 +10,16 @@
     "details": {
         "steps": [
             { 
-                "title" : "Hubot installation",
+                "title" : "Prepare environment",
                 "text": "step1.md"
             },
             { 
-                "title" : "Hello world",
+                "title" : "Hubot installation",
                 "text": "step2.md"
+            },
+            { 
+                "title" : "Add your custom script",
+                "text": "step3.md"
             }
         ],
         "intro": {
