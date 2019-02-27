@@ -30,7 +30,7 @@ If you which to read the file content you can execute :
 
 You will now use npm to install your Hubot script from the folder **demo-script**.
 
-`cd myhubot; npm install ../demo-script`{{execute}}
+`cd ../myhubot; npm install ../demo-script`{{execute}}
 
 Then you will instruct your bot to use your custom script in editing the file **external-scripts.json** and in adding the line **hubot-demo-script**. You will note that each hubot script is prefixed with **hubot-**.
 
@@ -49,11 +49,11 @@ Remove deprecated file
 
 You are now in a shell used to communicate with the bot. You can try the following commands :
 
-`mybot hello`{{copy}}
+`mybot hello`{{execute}}
 
-`mybot your name`{{copy}}
+`mybot your name`{{execute}}
 
-`can you hear me`{{copy}}
+`can you hear me`{{execute}}
 
 To exit the bot you can :
 
