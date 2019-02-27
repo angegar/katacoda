@@ -3,7 +3,7 @@
     "title": "Create your first bot",
     "description": "Create your first bot",
     "difficulty": "beginner",
-    "time": "20 minutes",
+    "time": "30 minutes",
     "icon": "",
     "authenticated": false,
     "private": false,
@@ -18,11 +18,14 @@
                 "text": "first_script.md"
             },
             {
-            "title": "Integration with MS Teams",
-            "text": "msteams.md"
-        }
+                "title": "Integration with MS Teams",
+                "text": "msteams.md"
+            }
         ],
-        "intro": {},
+        "intro": {
+            "title" : "What is a Chat Bot",
+            "text" : "intro.md"
+        },
         "assets": {
             "client":[
                 {
@@ -34,7 +37,7 @@
         "finish": {}
     },
     "environment": {
-        "hideintro": true,
+        "hideintro": false,
         "hidefinish" : true,
         "uilayout": "terminal",
         "showdashboard": true,

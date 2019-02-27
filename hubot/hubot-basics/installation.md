@@ -24,8 +24,6 @@ You can start the bot from the myhubot directory in using the following command.
 
 You are now in a shell used to communicate with the bot. You can try the following commands :
 
-### Check if your bot is up
-
 Ask for help
 `mybot help`{{execute}}
 
