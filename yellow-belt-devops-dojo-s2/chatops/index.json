@@ -1,0 +1,53 @@
+{
+    "pathwayTitle": "DevOps Dojo Yellow Belt - Stripe 2",
+    "title": "Create your first bot",
+    "description": "Getting started with the Yellow Belt DevOps Dojo - Stripe 2 : revisiting the back story, ensuring your environment is setup correctly.",
+    "difficulty": "beginner",
+    "time": "30 minutes",
+    "icon": "",
+    "authenticated": false,
+    "private": false,
+    "details": {
+        "steps": [
+            { 
+                "title" : "Hubot installation",
+                "text": "step1.md"
+            },
+            { 
+                "title" : "Hello world",
+                "text": "step2.md"
+            }
+        ],
+        "intro": {
+            "title" : "What is a Chat Bot",
+            "text" : "intro.md"
+        },
+        "assets": {
+            "client":[
+                {
+                    "file": "demo-script.js",
+                    "target": "~/"
+                }
+            ],
+            "host01": [
+                {"file": "prepare.sh", "target": "~/","chmod": "+x"},
+                {"file": "index.html", "target": "~/nginx"}
+            ]
+        },
+        "finish": {}
+    },
+    "environment": {
+        "hideintro": false,
+        "uilayout": "terminal-iframe",
+        "showdashboard": true,
+        "dashboards": [
+          { "name": "Jenkins", "port": 8080},
+          { "name": "GitHub", "port": 9876},
+          { "name": "Pet Clinic", "port": 9966}
+        ],
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nYou can type in and run shell commands here.\r\n\u001b[m"
+    },
+    "backend": {
+        "imageid": "devopsdojo-jenkins-yb-s2"
+    }
+}

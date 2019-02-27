@@ -1,0 +1,22 @@
+{
+  "title": "Yellow Belt DevOps Dojo - Stripe 2",
+  "description": "Learning DevOps, for real - Stripe 2.",
+  "courses": [
+    {
+      "title": "Welcome",
+      "description": "Getting started with the Yellow Belt DevOps Dojo - Stripe 2 : revisiting the back story, ensuring your environment is setup correctly.",
+      "course_id": "welcome-s2"
+    },
+    {
+      "title": "Binary management",
+      "description": "Getting started with the Yellow Belt DevOps Dojo - Stripe 2 : revisiting the back story, ensuring your environment is setup correctly.",
+      "course_id": "binary-management-ci"
+    },
+    {
+      "title": "ChatOps",
+      "description": "Getting started with the Yellow Belt DevOps Dojo - Stripe 2 : revisiting the back story, ensuring your environment is setup correctly.",
+      "course_id": "chatops"
+    }
+    
+  ]
+}
