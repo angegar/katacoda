@@ -49,7 +49,7 @@ In parallel to the adaption of tooling **P**aulo is encouraging the team to cont
 
 The primary goal of the Pet Clinics DevOps transformation is to reduce the time it takes the Pet Clinic development team to deliver business value into production. The software delivered has to be defect free with problems being detected and corrected as early as possible in the development cycle. The adaption of DevOps promotes practices which enable and demand better communication and thus collaboration between development teams and IT Operations.
 
-With **C**huns help and guidance the Pet Clinic DevOps transformation is focused on the introduction a Culture of Automation, Measurement and Sharing (CAMS). **D**an the developer and **A**dam the SRE have suggested the team evaluate and potentially use ChatOps in support of the desired CAM culture.
+With **C**hun help and guidance the Pet-Clinic DevOps transformation is focused on the introduction a Culture of Automation, Measurement and Sharing (CAMS). **D**an the developer and **A**dam the SRE have suggested the team evaluate and potentially use ChatOps in support of the desired CAM culture.
 
 **C**hun agrees and suggests to **S**anthosh that the team use some of the team allocated for the improvement of daily work in their next Kaizen cycle to investigate the use of ChatOps .
 
@@ -98,7 +98,7 @@ Collaboration tool: The chat application used by the team to work in. There are 
 
 ChatBot: In the teams' collaboration tool the ChatBot acts as the interlocutor between the person making the request and the tools servicing the request. The ChatBot accepts requests from team members, then executes commands against or to retrieve information from integrated systems and tooling. There are a number of popular tools for creating ChatBots including Hubot, Lita and Cog.
 
-Backend System integration: The backend system that the ChatBot interacts with. These backend can include
+Back-end system integration: The back-end system that the ChatBot interacts with. These back-end can include :
 
     JIRA for issue creation and tracking.
     GitHub for version control.
@@ -115,7 +115,7 @@ The potential for automation using ChatOps is truly limitless.
 
 Remainder of lab to be based on this content
 
-[KataCoda](https://katacoda.com/lgil/courses/hubot) focus on Steps 1 to 3. 
+[Katacoda](https://katacoda.com/lgil/courses/hubot) focus on Steps 1 to 3. 
 
 Need to decide if 
 

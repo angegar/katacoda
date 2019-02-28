@@ -1,18 +1,16 @@
 ## Create a Hubot script - part 2
 
-Into the part 1 we learnt how to install Hubot and how to add a custom script. In this step you will create your first usefull command.
+Into the part 1 we learned how to install Hubot and how to add a custom script. In this step you will create your first useful command.
 
 
-### Customize the hubot script
+### Customize the Hubot script
 
 Edit the demo-script.js file
 
 `vi ~/demo-script/src/demoscrit.js`
 
-Add the following command- [Create a Hubot script - part 2](#create-a-hubot-script---part-2)
-  - [Customize the hubot script](#customize-the-hubot-script)
-  - [Add the dependancy to the request module](#add-the-dependancy-to-the-request-module)
-  - [Install the](#install-the)
+Add the following piece of code
+
 ```javascript
 var request = require('request');
 
@@ -32,7 +30,7 @@ var request = require('request');
     });
 ```{{copy}}
 
-### Add the dependancy to the request module
+### Add the dependency to the request module
 
 From the demo-script folder
 

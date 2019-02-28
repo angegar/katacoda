@@ -24,9 +24,9 @@ If you which to read the file content you can execute :
 
 `cat ../demo-script/src/demo-script.js`{{execute}}
 
-> Note: Initally Hubot used the coffee script language, but now you can also use nodejs which seems to be the go forward solution.
+> Note: Initially Hubot used the coffee script language, but now you can also use NodeJS which seems to be the go forward solution.
 
-## Add a custome script to your bot
+## Add a custom script to your bot
 
 You will now use npm to install your Hubot script from the folder **demo-script**.
 
