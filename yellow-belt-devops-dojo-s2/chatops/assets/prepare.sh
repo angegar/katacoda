@@ -122,4 +122,7 @@ wait_for_jenkins()
 }
 wait_for_jenkins
 
+set +x
+echo 'ok' > /tmp/prepare.txt
+set -x
 echo -e "${COLINFO}You are all set! Click on 'CONTINUE'${COLRESET}"
