@@ -1,3 +1,3 @@
 #!/bin/bash 
 
-[ -z "$ENV_PREPARE" ] && echo "done"
+[ -f /tmp/firstname.txt ] && echo "done"
