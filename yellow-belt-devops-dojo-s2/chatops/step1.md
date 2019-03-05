@@ -1,11 +1,17 @@
-Run the following command to bring up Jenkins and connect it to your copy of the Pet Clinic application's code. This script may take a few minutes to run.
+As the Pet Clinic team progress with their DevOps transformation they have increased their use of 'DevOps' tooling in support of the transformation. Tools introduced include GitHub for source code management and version control, Jenkins for continuous integration and continuous delivery, and Artifactory for binary management.
 
-(you will re-use the GitHub "Personal Access Token" you have created in the Welcome module. If you lost it, go to [https://github.dxc.com/settings/tokens](https://github.dxc.com/settings/tokens) to create a new one and save it for later.)
+In parallel to the adaption of tooling **P**aulo is encouraging the team to continue to work to evolve their culture. **C**hun states that in her opinion transforming the culture is just as important, if not more important as the introduction of new tooling in successful DevOps transformations.
 
-  `./prepare.sh`{{execute}}
+The primary goal of the Pet Clinics DevOps transformation is to reduce the time it takes the Pet Clinic development team to deliver business value into production. The software delivered has to be defect free with problems being detected and corrected as early as possible in the development cycle. The adaption of DevOps promotes practices which enable and demand better communication and thus collaboration between development teams and IT Operations.
 
-...and wait for the "Click to Continue" message.
+With **C**hun help and guidance the Pet-Clinic DevOps transformation is focused on the introduction a Culture of Automation, Measurement and Sharing (CAMS). **D**an the developer and **A**dam the SRE have suggested the team evaluate and potentially use ChatOps in support of the desired CAM culture.
 
-Note: Jenkins is an open source automation server used for automating continuous integration and facilitating the technical aspects of continuous delivery. 
+The team that will participate in the investigation of ChatOps are
 
-💡 **TIP**: 🦊 Firefox user? Use `CTRL`+`INS` / `SHIFT`+`INS` to copy/paste your Personal Access Token in the window.
+| Module Actors                          | Role(s)                                                                    |
+| -------------------------------------- | -------------------------------------------------------------------------- |
+| [Chun](../story.md#chun-coach ":relative") | DevOps coach engaged to help the company and development team make the shift to a new way of working by mentoring, empowering and coaching the team. |
+| [Paulo](../story.md#paulo-product-owner ":relative")       | Product Owner appointed to facilitate the change, experienced Agile practitioner with some exposure to DevOps tools and processes.             |
+| [Santhosh](../story.md#santhosh-scrum-master ":relative") | Scrum Master participating in the DevOps transformation |
+| [Adam](../story.md#adam-admin--site-reliability-engineer ":relative") | IT Admin representative participating in the DevOps transformation       |
+| [Dan](../story.md#dan-developer ":relative")       | Developer representative participating in the DevOps transformation             |

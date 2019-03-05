@@ -1,0 +1,108 @@
+---
+speaking: Chun
+text: >
+    How do we and how should we view test automation?
+---
+speaking: Chun
+text: >
+    A cure for all ills? Something we get around to when there is time?
+---
+speaking: Paulo
+text: >
+    Across the company, both in this team and in the other development teams testing is occurring to varying degrees.
+---
+speaking: Paulo
+text: >
+    The testing being performed includes a mixture of manual and automated testing.
+---
+speaking: Tina
+text: >
+    We need test automation bonded to the DNA of our applications.
+---
+speaking: Santhosh
+text: >
+    Bonded in to our applications DNA, I like it Tina.
+---
+speaking: Chun
+text: >
+    DevOps enables a culture where development and operations come together to build, test and deploy applications.
+---
+speaking: Chun
+text: >
+    In such a culture teams continuously drive to reduce the overall cycle time.
+---
+speaking: Chun
+text: >
+    The nirvana being the ability to do multiple production deployments daily.
+---
+speaking: Chun
+text: >
+    Tina I understand prior to this initiative the team were following a Waterfall methodology?
+---
+speaking: Tina
+text: >
+    Yes we were.
+---
+speaking: Chun
+text: >
+    Would you be kind enough to gives an overview of the practices, advantages and challenges you and the test team had working within that model?
+---
+speaking: Tina
+text: >
+    In the Waterfall model testers were allocated time to run test cycles when development teams were finished developing and code was deemed ready for potential deployment.
+---
+speaking: Tina
+text: >
+    That model worked but it relied on set cycles for system integration, UAT (User Acceptance Tests), performance and security testing.
+---
+speaking: Chun
+text: >
+    That methodology doesn't however scale well in the world Paulo described which is one of ever decreasing cycle times.
+---
+speaking: Chun
+text: >
+    Nor does it scale well in a world where teams target multiple deployments daily.
+---
+speaking: Tina
+text: >
+    In such scenarios, we are seeing that there isn't time for formal test cycles. Testing needs to be continuous.
+---
+speaking: Tina
+text: >
+    Of course the products still need to be tested. This is where test automation becomes mandatory. It could have been an investment we could avoid with long cycles, but not anymore.
+---
+speaking: Chun
+text: >
+    Exactly. In addition, test automation is a complex discipline which needs to be planned and supported by all stakeholders.
+---
+speaking: Chun
+text: >
+    Test automation is often a major differentiator as to why some DevOps projects fail and others succeed.
+---
+speaking: Paulo
+text: >
+    How so?
+---
+speaking: Chun
+text: >
+    Test automation requires Developer and Testers to have a broad understanding of the application functionality, the underlying architecture, platform and test automation tools.
+---
+speaking: Chun
+text: >
+    It also requires that they know how to apply those tools and create tests in parallel to the development and that they can invoke the test suites from CI/CD pipelines.
+---
+speaking: Chun
+text: >
+    Test automation is what gives you the confidence to deploy application updates and patches as testing happens continuously. Each code change will trigger automated test execution.
+---
+speaking: Paulo
+text: >
+    Understood. Thanks Chun and Tina for that overview.
+---
+speaking: Paulo
+text: >
+    Our mission should we choose to accept it, would appear to be to ensure test automation is bonded into the DNA of our applications.
+---
+speaking: Tina
+text: >
+    How could we refuse such an important mission?

@@ -1,0 +1,72 @@
+---
+speaking: Paulo
+text: >
+    We already have some operational metrics for the IT infrastructure. 
+---
+speaking: Paulo
+text: >
+    Why and how can they be improved?
+---
+speaking: Adam
+text: >
+    The problem is that we don't have any insight into what's happening inside the application code.
+---
+speaking: Adam
+text: >
+    For example, we might see a server is busy, with high CPU usage.
+---
+speaking: Adam
+text: >
+    But we don't know whether that's to be expected because of what the users are doing, whether there's a problem with the application code or whether it's a symptom of an issue elsewhere in the IT estate.
+---
+speaking: Santhosh
+text: >
+    All of the source code is visible to the whole team, in our Version Code system.
+---
+speaking: Santhosh
+text: >
+    Can't the System Administrators work with Dan and the developers to study the code to understand the root causes for what's happening?
+---
+speaking: Adam
+text: >
+    Bear in mind if the system is down there's a business impact for every second of an outage. We need to make it quick to identify the issue.
+---
+speaking: Adam
+text: >
+    We also need to remember that the System Administrators are not Developers - they're not experts in reading source code - so even with the assistance of Dan and the team there are lots of things that won't be evident from a "static" assessment of code
+---
+speaking: Santhosh
+text: >
+    So ideally you need a "dynamic" view of what's happening with the system?
+---
+speaking: Adam
+text: >
+    Exactly.
+---
+speaking: Dan
+text: >
+    At my last company we used a tool called StatsD for monitoring which was developed by the team at Etsy. Maybe we could start with that?
+---
+speaking: Tina
+text: >
+    I've also heard that other organisations use Splunk.
+---
+speaking: Adam
+text: >
+    Thanks Dan and Tina.
+---
+speaking: Adam
+text: >
+    Those suggestions sound interesting. Let me do some research and brief you all on the findings.
+---
+speaking: Paulo
+text: >
+    Once more it sounds like we have a plan, and you know me I love it when a plan comes together.
+---
+speaking: Santhosh
+text: >
+    Groan, you do realize your pop culture references are getting worse Paulo?
+---
+speaking: Paulo
+text: >
+    Laughs

@@ -1,55 +1,17 @@
-## Create a Hubot script - part 2
+ChatOps is comprised of three main components.
 
-Into the part 1 we learnt how to install Hubot and how to add a custom script. In this step you will create your first usefull command.
+Collaboration tool: The chat application used by the team to work in. There are a number of chat platforms including MS Teams and Slack.
 
+ChatBot: In the teams' collaboration tool the ChatBot acts as the interlocutor between the person making the request and the tools servicing the request. The ChatBot accepts requests from team members, then executes commands against or to retrieve information from integrated systems and tooling. There are a number of popular tools for creating ChatBots including Hubot, Lita and Cog.
 
-### Customize the hubot script
+Back-end system integration: The back-end system that the ChatBot interacts with. These back-end can include :
 
-Edit the demo-script.js file
+    JIRA for issue creation and tracking.
+    GitHub for version control.
+    Jenkins for continuous integration, delivery and deployment.
+    Ansible, Terraform, Kubernetes, AWS, Azure and others for provisioning and infrastructure as code (IAC).
+    Grafana for monitoring.
 
-`vi ~/demo-script/src/demoscrit.js`
+The potential for automation using ChatOps is truly limitless.
 
-Add the following command- [Create a Hubot script - part 2](#create-a-hubot-script---part-2)
-  - [Customize the hubot script](#customize-the-hubot-script)
-  - [Add the dependancy to the request module](#add-the-dependancy-to-the-request-module)
-  - [Install the](#install-the)
-```javascript
-var request = require('request');
-
-    // hear message said in a room
-    robot.hear(/deploy pet-clinic/i,function(res){
-        // job url       
-        const job_url='http://localhost:8080/job/pet-clinic/job/master/build'
-
-        //res.send('i start to deploy pet-clinic');
-        request.post({url: job_url}, (err,httpResponse,body) => {
-            if (err) {
-                return res.send('upload failed:', err);
-              }
-            return  res.send('Running the pet-clinic deployment');
-        })
-             .auth('admin', '569747beeffb19d5cad165c7907b6471', true);       
-    });
-```{{copy}}
-
-### Add the dependancy to the request module
-
-From the demo-script folder
-
-`npm install request`{{execute}}
-
-### Install the new script version
-
-From the myhubot folder
-
-`npm install ../demo-script`{{execute}}
-
-### Start your bot
-
-`./bin/hubot`{{execute}}
-
-## Start your deployment
-
-`deploy pet-clinic`{{execute}}
-
-Go to the jenkins tab and have a look to pet-clinic/master
+**S**anthosh allocates the time **D**an and **A**dam to investigate ChatOps in the teams next Kaizen event. The remainder of this lab contains the results of their experimentation with ChatOps.

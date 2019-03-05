@@ -1,8 +1,8 @@
 {
   "pathwayTitle": "DevOps Dojo Yellow Belt",
   "private": false,
-  "title": "Binary-management-ci",
-  "description": "Experience Binary Management, the process of publishing binaries and packages during during Continuous Integration",
+  "title": "Binary Management - Continuous Integration",
+  "description": "Experience Binary Management, the process of publishing binaries and packages during Continuous Integration",
   "difficulty": "intermediate",
   "time": "40 minutes",
   "details": {
@@ -12,7 +12,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Preparation",
+        "title": "Artifactory",
         "text": "step2.md"
       },
       {

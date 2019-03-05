@@ -9,21 +9,37 @@
     "private": false,
     "details": {
         "steps": [
-            { 
-                "title" : "Prepare environment",
+            {
+                "title" : "Story",
                 "text": "step1.md"
             },
-            { 
-                "title" : "Hubot installation",
+            {
+                "title" : "Role of ChatOps",
                 "text": "step2.md"
             },
-            { 
-                "title" : "Add your custom script",
+            {
+                "title" : "ChatOps",
                 "text": "step3.md"
             },
-            { 
-                "title" : "Deploy pet-clinic",
+            {
+                "title" : "ChatOp Components",
                 "text": "step4.md"
+            },
+            {
+                "title" : "Prepare environment",
+                "text": "step5.md"
+            },
+            {
+                "title" : "Hubot installation",
+                "text": "step6.md"
+            },
+            {
+                "title" : "Add your custom script",
+                "text": "step7.md"
+            },
+            {
+                "title" : "Deploy pet-clinic",
+                "text": "step8.md"
             }
         ],
         "intro": {
