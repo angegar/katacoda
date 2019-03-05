@@ -37,7 +37,8 @@
             },
             {
                 "title" : "Add your custom script",
-                "text": "step7.md"
+                "text": "step7.md",
+                "verify": "step7-verify.sh"
             },
             {
                 "title" : "Deploy pet-clinic",

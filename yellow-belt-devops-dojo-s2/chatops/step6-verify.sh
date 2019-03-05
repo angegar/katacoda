@@ -1,3 +1,3 @@
 #!/bin/bash
 
-[ -d ~/myhubot ] && [ `yo --version` !=  "" ] && echo 'done'
+[ -d ~/myhubot ] && cd ~/myhubot && [ `yo --version` !=  "" ] && echo 'done'
