@@ -14,8 +14,18 @@
                 "text": "step1.md"
             },
             {
+                "title": "Pre-requisites",
+                "text": "step1.md",
+                "verify": "step1-verify.sh"
+            },
+            {
                 "title" : "Role of ChatOps",
                 "text": "step2.md"
+            },
+            {
+                "title": "Pre-requisites",
+                "text": "step2.md",
+                "verify": "step2-verify.sh"
             },
             {
                 "title" : "ChatOps",
