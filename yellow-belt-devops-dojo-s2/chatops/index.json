@@ -14,19 +14,9 @@
                 "text": "step1.md"
             },
             {
-                "title": "Pre-requisites",
-                "text": "step1.md",
-                "verify": "step1-verify.sh"
-            },
-            {
                 "title" : "Role of ChatOps",
                 "text": "step2.md"
-            },
-            {
-                "title": "Pre-requisites",
-                "text": "step2.md",
-                "verify": "step2-verify.sh"
-            },
+            },       
             {
                 "title" : "ChatOps",
                 "text": "step3.md"
@@ -40,8 +30,18 @@
                 "text": "step5.md"
             },
             {
+                "title": "Pre-requisites",
+                "text": "step5.md",
+                "verify": "step5-verify.sh"
+            },
+            {
                 "title" : "Hubot installation",
                 "text": "step6.md"
+            },
+            {
+                "title": "Pre-requisites",
+                "text": "step6.md",
+                "verify": "step6-verify.sh"
             },
             {
                 "title" : "Add your custom script",
