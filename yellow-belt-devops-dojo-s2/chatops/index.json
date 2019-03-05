@@ -39,7 +39,7 @@
                 "text": "step6.md"
             },
             {
-                "title": "Pre-requisites",
+                "title": "Install-tools",
                 "text": "step6.md",
                 "verify": "step6-verify.sh"
             },
