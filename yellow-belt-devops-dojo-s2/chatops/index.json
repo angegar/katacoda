@@ -30,7 +30,7 @@
                 "text": "step5.md"
             },
             {
-                "title": "Pre-requisites",
+                "title": "Prepare environment",
                 "text": "step5.md",
                 "verify": "step5-verify.sh"
             },
@@ -39,7 +39,7 @@
                 "text": "step6.md"
             },
             {
-                "title": "Install-tools",
+                "title": "Hubot installation",
                 "text": "step6.md",
                 "verify": "step6-verify.sh"
             },
